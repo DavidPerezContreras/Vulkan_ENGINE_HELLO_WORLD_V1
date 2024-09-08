@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#This script can be called from everywhere
+#It creates a project using this one as a template.
+
+
+
 # Exit immediately if a command exits with a non-zero status
 set -e
 
