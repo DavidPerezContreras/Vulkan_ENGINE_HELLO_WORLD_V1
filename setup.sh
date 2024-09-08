@@ -6,6 +6,8 @@ set -e
 # Check if setup.sh file exists in the user's current directory.
 if [ -f "./setup.sh" ]; then
 
+    sudo apt install g++ -y
+
     # Check for root privileges
     if [ "$EUID" -ne 0 ]; then 
         echo "Please run as root or use sudo"
